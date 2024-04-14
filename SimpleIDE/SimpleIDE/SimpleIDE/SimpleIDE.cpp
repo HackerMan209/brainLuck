@@ -10,7 +10,7 @@ int CALLBACK wWinMain(HINSTANCE hInst, HINSTANCE, PWSTR szCmdSize, int nCmdShow)
             return 0;
         }
         return DefWindowProc(hWnd, uMsg, wParam, lParam);
-    };
+        };
     mainWindClass.hInstance = hInst;
     mainWindClass.lpszClassName = L"MainWndClass";
 
